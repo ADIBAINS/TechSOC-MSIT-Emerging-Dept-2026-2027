@@ -10,6 +10,9 @@ The User can add tasks in the textfield and hit enter to register a task entry. 
 each task is tracked using its id, along with that they are either saved as 'task' or 'comptask', signifying a task, and a completed task respectively.
 the flask app provides api calls as the following: '/add, /todos, /comptodos, /delete, /addcomp'
 
+
+in the flutter app, the communicator.dart handles the communication with the flask app, the main.dart file deals with the interface. Both files can be found inside the lib folder.
+
 Libraries used: urllib, bson, pymongo, flask, flask_cors
 
 
