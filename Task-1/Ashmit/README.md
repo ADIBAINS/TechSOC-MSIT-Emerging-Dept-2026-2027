@@ -2,8 +2,13 @@
 This is a ToDo webapp made using flutter and flask for backend. It uses mongoDB for storing the data.
 The app provides with features to add tasks, mark them as done and remove them. Allowing the user to keep track of remaining tasks. 
 The app supports both dark and light theme depending on what the default theme of the user's machine is.
+The app utilizes an overall blue theme, an animated text display on the banner, and a svg illustration.
 
 The User can add tasks in the textfield and hit enter to register a task entry. On loading the tasks, the user is presented with a column containing the list of all the tasks, with a cancel and a done button; the former is used for the deletion of the task, and the latter for marking the task as complete. The user can either keep the completed task in the list or delete it as well.
+
+
+each task is tracked using its id, along with that they are either saved as 'task' or 'comptask', signifying a task, and a completed task respectively.
+the flask app provides api calls as the following: '/add, /todos, /comptodos, /delete, /addcomp'
 
 Libraries used: urllib, bson, pymongo, flask, flask_cors
 
