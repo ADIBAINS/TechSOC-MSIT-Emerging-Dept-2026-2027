@@ -6,6 +6,8 @@ The app supports both dark and light theme depending on what the default theme o
 The User can add tasks in the textfield and hit enter to register a task entry. On loading the tasks, the user is presented with a column containing the list of all the tasks, with a cancel and a done button; the former is used for the deletion of the task, and the latter for marking the task as complete. The user can either keep the completed task in the list or delete it as well.
 
 Libraries used: urllib, bson, pymongo, flask, flask_cors
+
+
 flutter dependencies: cupertino_icons: ^1.0.8, animated_text_kit: ^4.3.0, google_fonts: ^8.2.1, flutter_randomcolor: ^1.0.16
 
 Light Mode
