@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Sat Oct 17 06:01:47 2026 as: /usr/bin/nmap -oN nmap_scan.txt 10.49.129.38
+Nmap scan report for ip-10-49-129-38.ap-south-1.compute.internal (10.49.129.38)
+Host is up (0.00021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+9999/tcp open  abyss
+
+# Nmap done at Sat Oct 17 06:01:47 2026 -- 1 IP address (1 host up) scanned in 0.12 seconds
